@@ -1,0 +1,83 @@
+.cities-body {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  width: 100%;
+  overflow-x: auto;
+
+  .cities-weather {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 330px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    transition: 1s;
+    margin-top: -10px;
+  }
+
+  .cities-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background: linear-gradient(to bottom, #840314, #f20);
+    width: 250px;
+    height: 300px;
+    min-width: 250px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.8);
+    border-end-end-radius: 30%;
+    border-start-start-radius: 20px;
+    input {
+      margin: 100px 0 50px;
+      width: 70%;
+      border-radius: 40px;
+      text-align: center;
+    }
+  }
+}
+
+.error-black {
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  z-index: 1000;
+
+  .error-show {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    min-width: 350px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 0 20px black, 0 0 10px black;
+    font-size: 20px;
+    button {
+      align-self: end;
+      color: white;
+      width: max-content;
+      padding: 5px;
+      margin: 25px 15px 0 0;
+      background: #444;
+      font-size: 16px;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .error-black {
+    .error-show {
+      font-size: 15px;
+    }
+  }
+}
