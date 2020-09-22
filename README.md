@@ -12,6 +12,7 @@ cd Open-Weather-App
 ```
 
 **Back-end**
+
 `Express - Cors - Axios - Nodemon`
 
 ```bash
@@ -22,6 +23,7 @@ npm start
 
 **Front-end**
 App creada con `create-react-app`
+
 `React - fortawesome - @reduxjs/toolkit - axios - moment - node-sass - react-dom - react-redux - react-scripts`
 
 ```bash
@@ -43,13 +45,13 @@ Para hacer consultas a la API deberán usar estas rutas en Postman o programa si
 > Ruta base: http://localhost:4000/v1
 
 > \*/location/
-> Esta dirección te dará el clima de tu locación actual en base a tu ip
+Esta dirección te dará el clima de tu locación actual en base a tu ip
 
 > _/current/:ciudad
-> Esta dirección te permite acceder al clima de la ciudad que ingreses como parámetro o el clima de tu locación actual en base a tu ip si no se agregan parámetros. Ej: `_/current/`La forma correcta de escribir una ciudad es usando "-" en lugar de espacios. Ej:`\*/current/buenos-aires`
+Esta dirección te permite acceder al clima de la ciudad que ingreses como parámetro o el clima de tu locación actual en base a tu ip si no se agregan parámetros. Ej: `_/current/`La forma correcta de escribir una ciudad es usando "-" en lugar de espacios. Ej:`\*/current/buenos-aires`
 
 > _/forecast/:ciudad
-> Esta dirección te permite acceder al pronóstico de los próximos 5 días de la ciudad que ingreses como parámetro o el clima de tu locación actual en base a tu ip si no se agregan parámetros. Ej: `_/forecast/`La forma correcta de escribir una ciudad es usando "-" en lugar de espacios. Ej:`\*/forecast/nueva-york`
+Esta dirección te permite acceder al pronóstico de los próximos 5 días de la ciudad que ingreses como parámetro o el clima de tu locación actual en base a tu ip si no se agregan parámetros. Ej: `_/forecast/`La forma correcta de escribir una ciudad es usando "-" en lugar de espacios. Ej:`\*/forecast/nueva-york`
 
 _Otros parámetros permitidos:_
 
@@ -63,52 +65,52 @@ Ej: `*/current/paris?lang=fr`o `*/current/california?lang=en&units=imperial`
 _Idiomas soportados_
 We support the following languages that you can use with the corresponded lang values:
 
-_`af` Afrikaans
-_`al` Albanian
-_`ar` Arabic
-_`az` Azerbaijani
-_`bg` Bulgarian
-_`ca` Catalan
-_`cz` Czech
-_`da` Danish
-_`de` German
-_`el` Greek
-_`en` English
-_`eu` Basque
-_`fa` Persian (Farsi)
-_`fi` Finnish
-_`fr` French
-_`gl` Galician
-_`he` Hebrew
-_`hi` Hindi
-_`hr` Croatian
-_`hu` Hungarian
-_`id` Indonesian
-_`it` Italian
-_`ja` Japanese
-_`kr` Korean
-_`la` Latvian
-_`lt` Lithuanian
-_`mk` Macedonian
-_`no` Norwegian
-_`nl` Dutch
-_`pl` Polish
-_`pt` Portuguese
-_`pt_br` Português Brasil
-_`ro` Romanian
-_`ru` Russian
-_`sv, se` Swedish
-_`sk` Slovak
-_`sl` Slovenian
-_`sp, es` Spanish
-_`sr` Serbian
-_`th` Thai
-_`tr` Turkish
-_`ua, uk` Ukrainian
-_`vi` Vietnamese
-_`zh_cn` Chinese Simplified
-_`zh_tw` Chinese Traditional
-_`zu` Zulu
+*`af` Afrikaans
+*`al` Albanian
+*`ar` Arabic
+*`az` Azerbaijani
+*`bg` Bulgarian
+*`ca` Catalan
+*`cz` Czech
+*`da` Danish
+*`de` German
+*`el` Greek
+*`en` English
+*`eu` Basque
+*`fa` Persian (Farsi)
+*`fi` Finnish
+*`fr` French
+*`gl` Galician
+*`he` Hebrew
+*`hi` Hindi
+*`hr` Croatian
+*`hu` Hungarian
+*`id` Indonesian
+*`it` Italian
+*`ja` Japanese
+*`kr` Korean
+*`la` Latvian
+*`lt` Lithuanian
+*`mk` Macedonian
+*`no` Norwegian
+*`nl` Dutch
+*`pl` Polish
+*`pt` Portuguese
+*`pt_br` Português Brasil
+*`ro` Romanian
+*`ru` Russian
+*`sv, se` Swedish
+*`sk` Slovak
+*`sl` Slovenian
+*`sp, es` Spanish
+*`sr` Serbian
+*`th` Thai
+*`tr` Turkish
+*`ua, uk` Ukrainian
+*`vi` Vietnamese
+*`zh_cn` Chinese Simplified
+*`zh_tw` Chinese Traditional
+*`zu` Zulu
 
 **Front-end**
 
